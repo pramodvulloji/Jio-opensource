@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jio opensource</title>
+    <style>
+        img{
+            border-radius: 50%;
+        }
+        body{
+            background-image: url(open.png);
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: 100% 100%;
+        }
+        .s1{
+            text-align: center;
+        }
+        .s2{
+            font-family: fantasy;
+            background-color: red ;
+            border-radius: 50px; /* Rounded corners */
+            padding: 10px ; /* Add padding for better appearance */
+            display: inline-block; /* Ensure inline block for proper centering */
+            font-size: 50px;
+        }
+        .form-container{
+
+        border: 1px solid #000;
+        padding: 10px 5px;
+        width: 300px; /* Set your desired width */
+        height: 250px;
+        border-radius: 10px; /* Add rounded corners */
+        float: right;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        background-color: #f0f0f0;
+        margin-right: 20px; /* Adjust margin to shift it slightly to the left */
+    margin-left: 10px; /* New margin to move it slightly left */
+        }
+        form{
+            text-align: center;
+        }
+        form span,
+        form input {
+            display: inline-block; /* Make them inline-block elements */
+            vertical-align: middle; /* Align vertically */
+        }
+        /* Margin between span and input */
+        form span {
+            margin-right: 10px; /* Adjust as needed */
+        }
+        .form-text{
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="s1">
+    
+            <span class="s2">Jio </span>opensource
+            
+           </div>   
+    </header>
+     
+   <br><br><br><br>
+   <div class="form-container">
+    <form >
+       <!-- <span style="color:bisque;">Username</span> -->
+        <input class="form-text" type="text" id="fname" name="fname" placeholder="Phone number, username, email"><br>
+        <!-- <span style="color:bisque ;"> password</span> -->
+        <input class="form-text" type="text" id="lname" name="lname" placeholder="Password">
+      </form>
+   </div>
+</body>
+</html>
